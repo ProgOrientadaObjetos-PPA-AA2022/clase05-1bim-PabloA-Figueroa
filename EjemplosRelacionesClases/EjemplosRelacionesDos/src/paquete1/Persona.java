@@ -45,5 +45,11 @@ public class Persona {
         return barrio;
     }
     
-    
+    @Override
+    public String toString(){
+        String p = String.format("La persona con los datos: %s(%s);\npertenece al "
+                + "barrio: %s\n", obtenerCedula(), obtenerNombre(), 
+                obtenerBarrio().obtenerNombre());
+        return p;
+    }
 }

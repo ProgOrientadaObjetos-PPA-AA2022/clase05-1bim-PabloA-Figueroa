@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package paqueteuno;
+package paquete01;
 
 /**
  *
@@ -13,6 +13,7 @@ public class Computadora {
 
     private String tipoProcesador;
     private UnidadDVD unidadDvd;
+    
 
     public Computadora(String a, UnidadDVD unidad) {
         tipoProcesador = a;

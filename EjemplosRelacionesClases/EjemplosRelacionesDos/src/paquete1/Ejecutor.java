@@ -18,12 +18,17 @@ public class Ejecutor {
         
         Persona persona1 = new Persona("René Elizalde", "1100909909", barrio1);
         
-        System.out.printf("El barrio de la persona es: %s\n",
-                persona1.obtenerBarrio().obtenerNombre());
+        System.out.printf("La persona con los datos: %s(%s);\n pertenece al "
+                + "barrio: %s\n",
+                persona1.obtenerCedula(),persona1.obtenerNombre(),persona1.obtenerBarrio().obtenerNombre());
         
         persona1.establecerBarrio(barrio2);
         
-        System.out.printf("El barrio de la persona es: %s\n",
-                persona1.obtenerBarrio().obtenerNombre());
+       
+        System.out.printf("La persona con los datos: %s(%s);\n pertenece al "
+                + "barrio: %s\n",
+                persona1.obtenerCedula(),persona1.obtenerNombre(),persona1.obtenerBarrio().obtenerNombre());
+
+
     }
 }
